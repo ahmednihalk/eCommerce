@@ -1,0 +1,413 @@
+body{
+    font-family: Open Sans;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 40px;
+}
+.main_menu{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    .left_menu{
+        a{
+            font-family: Open Sans;
+            padding-right: 40px;
+        }
+    }
+    .right_menu{
+        a{
+            font-family: Open Sans;
+            padding-left: 40px;
+        }
+    }    
+}
+.category_section{
+    display: flex;
+    justify-content: space-between;
+    .search_bar{
+        width: 520px;
+        height: 42px;
+        position: relative;
+        border: 1px solid #D1D1D1;
+        border-radius: 12px;
+        display: flex;
+        margin-top: 10px;
+    }
+    .categories{
+        display: flex;
+        padding: 8px 0 0 20px;
+        h3{
+            font-size: 16px;
+        }
+        a{
+            .icon-bottom-arrow{
+                font-size: 12px;
+                padding: 10px;
+                padding-right: 20px;
+            }
+        }
+    }
+}
+.search{
+    display: flex;
+    grid-gap: 70px;
+    padding: 8px;
+    .search_feild{
+        width: 200px;
+        border: none;
+        &:focus{
+            outline: none;
+        }
+        &::placeholder{
+            padding-right: 40px;
+        }
+    }
+    .icon-search{
+        padding-top: 4px;
+        position: absolute;
+        right: 15px;
+    }
+}
+.cart_section{
+    font-size: 30px;
+    padding: 20px;
+    .man{
+        padding-right: 20px;
+    }
+}
+.categories_Section{
+    width: 100%;
+    height: 55px;
+    background-color: #F9F9F9;
+    display: flex;
+    align-items: center;
+    grid-gap: 70px;
+    .category_feild{
+        position: relative;
+    }
+    .icon-bottom-arrow{
+        position: absolute;
+        top: 5px;
+        right: -25px;
+    }
+}
+.product_content{
+    display: flex;
+    grid-gap: 210px;
+    padding: 80px 0 0;
+}
+.side_bar_padding{
+    padding: 0 0 100px 0;
+}
+.side_bar_list{
+    li{
+        h3{
+            a{
+                color: #000;
+                text-decoration: none;
+            }
+            font-size: 18px;
+        }
+        a{
+            font-size: 14px;
+            color: #6A983C;
+            line-height: 35px;
+            text-decoration: underline;
+        }
+    }
+}
+
+.recepie_card{
+    padding: 0 0 100px 0 ;
+    position: relative;
+    .recepie_content{
+        position: absolute;
+        top: 0px;
+        padding: 25px 40px;
+        line-height: 40px;
+        .icon-right_arrow{
+            font-size: 8px;
+        }
+    }
+}
+.green_card{
+    width: 500px;
+    height: 260px;
+}
+.card_section{
+    display: flex;
+    grid-gap: 40px;
+}
+.product_card_section{
+    display: flex;
+    grid-gap: 40px;
+    margin-bottom: 100px;
+}
+.product_card{
+    width: 320px;
+    height: 315px;
+    border: 2px solid #D1D1D1;
+    border-radius: 12px;
+    .grey_bg{
+        width: 270px;
+        height: 150px;
+        margin: 20px;
+        background-color: #F9F9F9;
+        border-radius: 12px;
+    }
+    .product_card_content{
+        padding: 0 20px;
+        h3{
+            font-size: 18px;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+    .amount_section{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        h3{
+            font-weight: bold;
+        }
+    }
+}
+.our_customers_says{
+    width: 100%;
+    height: 400px;
+    h2{
+        padding: 40px 10px ;
+    }
+}
+.cuntomers_opinion{
+    position: relative;
+    width: 370px;
+    height: 200px;
+    border: 2px solid #F1F1F1;
+    border-radius: 12px;
+    padding: 40px;
+    text-align: center;
+    h3{
+        font-size: 15px;
+    }
+    h4{
+        padding-top: 20px;
+        font-size: 12px;
+        color: #A9A9A9;
+    }
+    .profile{
+        width: 50px;
+        height: 50px;
+        background-color: #F5F5F5;
+        border-radius: 50px;
+        position: absolute;
+        right: 145px;
+        top: 190px;
+    }
+}
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .swiper{
+      padding-bottom: 25px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-button-next:after{
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+}
+.swiper-button-prev:after{
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+}
+.section_headline{
+    padding: 0 0 100px 0;
+    h2{
+        padding: 40px 10px;
+    }
+}
+.section_headline_content{
+    display: flex;
+    grid-gap: 50px;
+}
+.blog_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.blog_featured{
+    position: relative;
+    width: 470px;
+    height: 400px;
+    background-color: #fff;
+    .dinner_tips{
+        width: 110px;
+        height: 40px;
+        border-radius: 50px;
+        padding: 8px 12px;
+        background-color: #F4F8EC;
+        color: #6A983C;
+        position: absolute;
+        top: 50px;
+        left: 30px;
+    }
+    .blog_gradient{
+        width: 470px;
+        position: absolute;
+        height: 200px;
+        background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+        border-radius: 12px;
+        bottom: 0;
+        padding: 70px 80px 0px 20px;
+        h2{
+            color: #fff;
+            font-size: 20px;
+        }
+        .date{
+            display: flex;
+            grid-gap: 20px;
+            padding: 10px 0;
+            h3, h4{
+                color: #fff;
+                font-size: 12px;
+                padding-top: 10px;
+                font-weight: 100;
+            }
+            .author{
+                width: 40px;
+                height: 40px;
+                background-color: #D1D1D1;
+                border-radius: 50px;
+            }
+        }
+    }
+}
+.blog_secondary{
+    width: 300px;
+    height: 340px;
+    .plane_grey_box{
+        width: 300px;
+        height: 200px;
+        background-color: #F5F5F5;
+        border-radius: 12px;
+    }
+    .blog_secondary_content{
+       padding: 10px;
+    }
+    .dinner_tips{
+        width: 110px;
+        height: 40px;
+        border-radius: 50px;
+        padding: 8px 20px;
+        background-color: #F4F8EC;
+        color: #6A983C;
+        margin: 10px 0;
+    }
+    .secondary_date{
+        display: flex;
+        grid-gap: 20px;
+        padding: 5px 0;
+        h3, h4{
+            color: #000;
+            font-size: 12px;
+            padding-top: 10px;
+            font-weight: 100;
+        }
+    }
+}
+.blog_tertiary{
+    width: 370px;
+    padding: 0 0 40px 0;
+    display: flex;
+    grid-gap: 40px;
+    .blog_tertiary_plan_greybox{
+        width: 140px;
+        height: 90px;
+        background-color: #F5F5F5;
+        border-radius: 12px;
+    }
+    .tertiary_date{
+        display: flex;
+        grid-gap: 20px;
+        padding: 5px 0;
+        h3, h4{
+            color: #000;
+            font-size: 12px;
+            padding-top: 10px;
+            font-weight: 100;
+        }
+    }
+}
+.links{
+    padding: 100px 0;
+}
+.links_inner{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-gap: 200px;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: flex-start;
+    justify-content: center;
+    ul li{
+        a{
+            color: #6A983C;
+        }
+    }
+}
+.links li{
+    line-height: 2.8;
+}
+.product_tags{
+    ul{
+        padding: 10px 5px;
+        display: flex;
+        grid-gap: 40px;
+    }
+    li{
+        display: inline-block;
+        padding: 5px;
+        background-color: #F5F5F5;
+        border-radius: 50px;
+    }
+}
+.copyright{
+    padding: 40px 0;
+    h3{
+        font-size: 18px;
+        font-weight: 100;
+    }
+}
